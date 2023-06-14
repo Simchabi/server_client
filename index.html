@@ -1,0 +1,28 @@
+.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+    <title>Document</title>
+</head>
+<body onload="init()">
+
+    <h1>Quiqk Translation</h1>
+    <h4>Translate whats on your mind..</h4>
+    <fieldset>
+        <legend>Translate:</legend>
+        <label for="test_user">Enter a sentence in English:</label>
+        <input type="text" id="text_user">
+        <input type="button" value="Translate" id="translate_btn">
+        <select  id="langs">
+            <option value="de">German</option>
+            <option value="he">Hebrew</option>
+            <option value="fr">French</option>
+            <option value="it">Italy</option>
+        </select>
+        <h3 id="translation"></h3>
+    </fieldset>
+    
+</body>
+</html>
